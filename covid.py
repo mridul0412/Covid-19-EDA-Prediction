@@ -7,6 +7,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 plt.style.use('fivethirtyeight')
 sns.set_context("notebook")
+import plotly.offline as py
+import plotly.graph_objects as go
+import plotly.express as px
 import datetime
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly, add_changepoints_to_plot
